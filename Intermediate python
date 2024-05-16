@@ -1,0 +1,51 @@
+## Matplotlib
+
+for importing any library we need use pip pakage to install the packages 
+
+pip3 install matplotlib
+
+for import matplotlib.pyplot as plt  importing a package to the python script we need to use 
+
+```python
+
+year = [1950,1970,1990,2010]
+
+pop = [2.519,3.692,5.263,6.972]
+
+plt.plot(year,pop)  #this will create a line chart 
+
+plt.show()               #this will display the charts or plots created
+
+### Scatter Plot
+
+plt..scatter(year,pop)     # this will create an scatter plot
+
+plt.show()
+```
+
+    
+
+```python
+# Change the line plot below to a scatter plot
+plt.scatter(gdp_cap, life_exp)
+
+# Put the x-axis on a logarithmic scale
+plt.xscale('log')
+
+# Show plot
+plt.show()
+```
+
+### Histogram
+
+plt.hist(values,bins=3)
+
+```python
+# Create histogram of life_exp data
+plt.hist(life_exp,10)
+
+# Display histogram
+plt.show()
+```
+
+![download.svg](https://prod-files-secure.s3.us-west-2.amazonaws.com/0097509f-7177-48dc-a785-3ea33ddceb46/6aad5a9c-ab56-4e25-8b8d-17fdb321b50b/download.svg)
